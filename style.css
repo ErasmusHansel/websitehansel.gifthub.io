@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'MonumentRegular';
+    src: url(fonts/MonumentExtended-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MonumentUltrabold';
+    src: url(fonts/MonumentExtended-Ultrabold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Intel';
+    src: url(fonts/Inter[wght].ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monsterat-Regular';
+    src: url(fonts/Montserrat-Regular.otf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 8%
+}
+
+.logo {
+    font-family: MonumentUltrabold;
+}
+
+h1 {
+    font-family: "MonumentUltrabold", sans-serif;
+    cursor: pointer;
+}
+
+.home h2 {
+    font-family: "MonumentUltrabold", sans-serif;
+}
+.home img {
+    width: 500px;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 17px;
+    font-family: MonumentRegular;
+}
+
+.nav li a:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: #0065b8;
+    border-radius: 15px;
+   
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 30px;
+    transition: all 0.5s ease 0s;
+}
+
+
+
+.perkenalan {
+    margin-right: 0px;
+    font-size: 40px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+    
+}
+
+.perkenalan h5 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.fotoprofil {
+    width: 300px;
+}
+
+.About {
+    background-color: #394867;
+    padding: 0px 0px;
+    font-size: 45px;
+}
+
+.About h1 {
+    color: rgb(255, 255, 255);
+}
+
+.About-paragraph {
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.About-paragraph p {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-family: "Monsterat-Regular";
+}
+
+.Hobi {
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+}
+
+.Hobi-Judul {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+
+}
+
+.Hobi-Hobi {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.Hobi-Hobi img {
+    margin: 0px 20px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    transition: 0.3s;
+}
+
+.Hobi-Hobi img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    z-index: 2;
+    filter: drop-shadow(5px 5px 10px #000000);
+}
+
+.Car-Photography {
+    width: 400px;
+    border-radius: 65px;
+}
+
+.Offroad {
+    width: 400px;
+    border-radius: 65px;
+}
+
+.Prestasi {
+    background-color: #394867;
+}
+
+.Prestasi-Judul {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    color: aliceblue;
+}
+
+.shortmovie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.shortmovie h1 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    background-color: #212A3E;
+    padding: 20px 40px;
+    border-radius: 65px;
+}
+
+.shortmovie img {
+    margin-left: 65px;
+    width: 420px;
+}
+
+.Ekonomi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    padding-bottom: 100px;
+}
+
+.Ekonomi h1 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    background-color: #212A3E;
+    padding: 20px 40px;
+    border-radius: 65px;
+}
+
+.Ekonomi img {
+    margin-left: 65px;
+    width: 420px;
+}
+
+.Contact-Judul h1 {
+    margin: 0px 350px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-size: 60px
+}
+
+.Contact-info{
+    margin: 10px 350px;
+    margin-bottom: 80px;
+}
+
+.Contact-info ul{
+    list-style: none;
+}
+
+.Contact-info ul li{
+    margin: 10px 0px;
+    display: flex;
+    
+}
+
+.Contact-info ul li a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.Contact-info ul li a :hover{
+    color: #0065b8;
+    transition: all 0.3s ease 0s;
+}
+
+.Contact-info ul li h2{
+    font-size: 27px;
+    margin-left: 10px;
+    font-family: MonumentRegular;
+}
+
+
+
+
+
